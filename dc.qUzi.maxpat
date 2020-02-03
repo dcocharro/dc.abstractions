@@ -53,7 +53,7 @@
 				"box" : 				{
 					"comment" : "(int) set count without fire",
 					"id" : "obj-29",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -66,7 +66,7 @@
 				"box" : 				{
 					"comment" : "(int) set base",
 					"id" : "obj-28",
-					"index" : 3,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -79,13 +79,12 @@
 				"box" : 				{
 					"fontsize" : 9.0,
 					"id" : "obj-31",
-					"linecount" : 4,
+					"linecount" : 7,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 333.0, 157.0, 294.0, 47.0 ],
-					"presentation_linecount" : 4,
-					"text" : "The original UZI and Counter objects crash with extended numbers like these.\n2,147,483,647 (the largest possible 32-bit signed integer)\n9,223,372,036,854,775,807 (the largest possible 64-bit signed integer)"
+					"patching_rect" : [ 333.0, 157.0, 294.0, 77.0 ],
+					"text" : "The original UZI and Counter objects crash with extended numbers like these.\n2,147,483,647 (the largest possible 32-bit signed integer)\n9,223,372,036,854,775,807 (the largest possible 64-bit signed integer)\n\nI came up with this solution, as a work around for a specific project where I was working with extra large numbers."
 				}
 
 			}
@@ -336,7 +335,7 @@
 				"box" : 				{
 					"comment" : "(int) start counting; (bang) fire predefined count",
 					"id" : "obj-11",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -349,7 +348,7 @@
 				"box" : 				{
 					"comment" : "(bangs)",
 					"id" : "obj-12",
-					"index" : 3,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -361,7 +360,7 @@
 				"box" : 				{
 					"comment" : "(bang) done",
 					"id" : "obj-13",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -373,7 +372,7 @@
 				"box" : 				{
 					"comment" : "(int) index",
 					"id" : "obj-14",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -598,7 +597,9 @@
 				}
 
 			}
- ]
+ ],
+		"dependency_cache" : [  ],
+		"autosave" : 0
 	}
 
 }
